@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-image: url(http://drive.google.com/uc?export=view&id=1cipIpGzJUVxXIQxpBisbEuvtT44oKC8Q);
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+@font-face {
+  font-family: SVN-Yipes;
+  src: url(SVN-Yipes.otf);
+}
+@font-face {
+  font-family: Hertine;
+  src: url(Hertine.otf);
+}
+body{
+  overflow-x: hidden;
+}
+
+p{
+  font-family: 'Nunito', sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 15px;
+  color: #ac83b8;
+}
+
+h1{
+  color: #ac83b8;
+}
+/*----------------------------- HEADER -----------------------------*/
+.title-section{
+
+   color: #ac83b8;
+    background-size:cover;
+    background-position: center;
+    height:120vh;
+    background-attachment: fixed;
+    background-image: url(http://drive.google.com/uc?export=view&id=1cipIpGzJUVxXIQxpBisbEuvtT44oKC8Q);
+    margin-bottom: -20%;
+}
+
+.clearfix::after{
+    content:"";
+    display:table;
+    clear: both;
+}
+
+   
+h1{
+
+  font-size: 80px;
+  position: relative;
+    color:#ac83b8;
+ text-align: center;
+ margin-top: 230px;
+  animation: slideInUp;
+    animation-duration: 2s;
+    font-family: 'SVN-Yipes', sans-serif;
+    display: block;
+}
+h2{
+    font-family: 'Hertine', sans-serif;
+    color: #ac83b8;
+    font-size: 25px;
+    position: absolute;
+    animation: slideInUp;
+    animation-duration: 3s;
+    margin-left: 25%;
+}
+
+    
+/*---------------------------------- SECTION 1st------------------------------------*/
+
+.st-section{
+    background-image: url(http://drive.google.com/uc?export=view&id=1ExOyUqjODvgQQcRHANzNEEU2BdFzkaIo);
+    height: 120vh;
+  }
+  
+  .azalea-section{
+      margin-top: 10px;
+      background-image: url(http://drive.google.com/uc?export=view&id=14wCUspiq0_hUPNEQUQWa_SQpZCU0IEsg);
+      height: 120vh;
+    }
+    
+  
+    .muji-section{
+       margin-top: 10px;
+        background-image: url(http://drive.google.com/uc?export=view&id=1P4iw-q39ZyEkGyNV7Q8Ta5u0p9ZuOTBB);
+        height: 120vh;
+      }
+
+        
+  .menta-section{
+    margin-top: 10px;
+
+      background-image: url(http://drive.google.com/uc?export=view&id=1_Wsofk0CcmxG2MSGuKu-ETRTqQkwTMST);
+      height: 120vh;
+    }
+.letter-section{
+  margin-top: 10px;
+  background-image: url(http://drive.google.com/uc?export=view&id=1cipIpGzJUVxXIQxpBisbEuvtT44oKC8Q);
+  height: 80vh;
+}
+
+/*----------------------------------------------------------- THE YOUTH SECTION ----------------------------------*/
+
