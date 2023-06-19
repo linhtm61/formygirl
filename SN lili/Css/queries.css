@@ -2,8 +2,12 @@
 
 
 /*small tablet to big tablet from 767 to 990px*/
-@media  screen and (max-width:1000px){
- 
+@media  screen and (max-width:500px){
+
+  
+  .title-section{
+    height: 80vh;
+  }
     
 h1{
 
@@ -11,7 +15,7 @@ h1{
   position: relative;
     color:#ac83b8;
  text-align: center;
- margin-top: 230px;
+ margin-top: 400px;
   animation: slideInUp;
     animation-duration: 2s;
     font-family: 'SVN-Yipes', sans-serif;
@@ -20,38 +24,53 @@ h1{
 h2{
     font-family: 'Hertine', sans-serif;
     color: #ac83b8;
-    font-size: 15px;
+    font-size: 13px;
     position: absolute;
     animation: slideInUp;
     animation-duration: 3s;
+    margin-left: 9%;
 }
 
 .st-section{
+  
   background-image: url(http://drive.google.com/uc?export=view&id=1gMiA3I3CrkkMW-UKXqG3v0C3Q0_aA6tx);
-  height: 100%;
+  width:100%;
+  margin-left: 4px;
 }
 
 .azalea-section{
-    margin-top: 10px;
+    margin-top: -185px;
     background-image: url(http://drive.google.com/uc?export=view&id=1GrotF29O-1hXdmgIylN2huRIjIL9vN1q);
-    height: 100%;  }
+    width:100%; 
+    margin-left: 4px;
+  }
   
 
   .muji-section{
-     margin-top: 10px;
+     margin-top: -380px;
       background-image: url(http://drive.google.com/uc?export=view&id=14gAv_vad1OB6deUBx-z0xED5dbtEdfsE);
-      height: 100%;    }
+      width: 101%;  }
 
       
 .menta-section{
-  margin-top: 10px;
+  margin-top: -300px;
 
-    background-image: url(http://drive.google.com/uc?export=view&id=1_Wsofk0CcmxG2MSGuKu-ETRTqQkwTMST);
-    height: 100%;  }
+    background-image: url(http://drive.google.com/uc?export=view&id=1S3vz95xUKCWPF9hFYVh3j9dAfZ1Ghsyb);
+    width: 100%; }
 .letter-section{
-margin-top: 10px;
-background-image: url(http://drive.google.com/uc?export=view&id=1S3vz95xUKCWPF9hFYVh3j9dAfZ1Ghsyb);
-height: 80vh;
+  margin-top: -300px;
+  height: 93vh;
+  background-image: url(http://drive.google.com/uc?export=view&id=1cipIpGzJUVxXIQxpBisbEuvtT44oKC8Q);
+  padding-bottom: 40px;
+}
+
+p{
+  font-family: 'Nunito', sans-serif;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color: #ac83b8;
 }
 }
 /*----------------------------------------------------------- THE YOUTH SECTION ----------------------------------*/
