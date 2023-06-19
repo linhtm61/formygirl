@@ -53,12 +53,14 @@ h2{
 
       
 .menta-section{
-  margin-top: -300px;
+  margin-top: -350px;
 
     background-image: url(http://drive.google.com/uc?export=view&id=1S3vz95xUKCWPF9hFYVh3j9dAfZ1Ghsyb);
-    width: 100%; }
+    width: 100%; 
+    margin-bottom: -180px;
+  }
 .letter-section{
-  margin-top: -300px;
+  margin-top: -590px;
   height: 93vh;
   background-image: url(http://drive.google.com/uc?export=view&id=1cipIpGzJUVxXIQxpBisbEuvtT44oKC8Q);
   padding-bottom: 40px;
